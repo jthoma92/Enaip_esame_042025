@@ -18,10 +18,8 @@ class ClasseParzialmenteImplementata:
     def metodo_esistente(self):
         return f"Ciao, sono {self.nome}!"
 
-    def metodo_da_completare(self, valore):
+    def metodo_da_completare(self, valore:str):
         """
-        Questo metodo dovrebbe aggiungere il 'valore' a un attributo interno
-        e restituire il nuovo valore.
+        Questo metodo aggiunge una stringa al self.nome
         """
-        # TODO: Implementare l'aggiunta del valore e la restituzione
-        pass
+        return self.nome + valore

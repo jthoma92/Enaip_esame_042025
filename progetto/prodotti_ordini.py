@@ -12,7 +12,7 @@ class Ordine:
         self.cliente = cliente
         self.prodotti = []
 
-    def aggiungi_prodotto(self, prodotto):
+    def aggiungi_prodotto(self, prodotto: Prodotto):
         self.prodotti.append(prodotto)
 
     def calcola_totale(self):
@@ -20,4 +20,9 @@ class Ordine:
         Questo metodo dovrebbe calcolare il totale dell'ordine.
         """
         # TODO: Implementare il calcolo del totale dell'ordine
-        pass
+        totale = 0
+
+        for articolo in self.prodotti:
+            totale += articolo.prezzo
+
+        return totale

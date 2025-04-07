@@ -1,5 +1,6 @@
 # Enaip_esame_042025
 
+### Creare un FORK del repo
 ### Clonare il repository.
 ### Configurare e attivare l'ambiente virtuale
 ### Installare le dipendenze (pip install -r requirements.txt, o mentre si inizializza l'ambiente virtuale).

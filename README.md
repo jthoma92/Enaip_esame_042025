@@ -2,6 +2,7 @@
 
 ### Creare un FORK del repo
 ### Clonare il repository.
+### Creare un BRANCH per lavorare su modulo1.py
 ### Configurare e attivare l'ambiente virtuale
 ### Installare le dipendenze (pip install -r requirements.txt, o mentre si inizializza l'ambiente virtuale).
 ### Completare le funzioni e i metodi indicati con TODO.
